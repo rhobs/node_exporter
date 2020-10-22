@@ -1,5 +1,7 @@
 module github.com/prometheus/node_exporter
 
+go 1.14
+
 require (
 	github.com/beevik/ntp v0.2.0
 	github.com/beorn7/perks v1.0.0 // indirect
@@ -31,4 +33,4 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
-replace github.com/prometheus/procfs => github.com/pgier/procfs v0.0.0-20191009150458-7d6f90cdaf41
+replace github.com/prometheus/procfs => github.com/openshift/procfs v0.0.2-0.20201022100146-84f9655b2c90
